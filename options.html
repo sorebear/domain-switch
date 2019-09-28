@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        width: auto;
+        height: auto;
+        padding: 10px 20px;
+        margin: 10px 0 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="availableSitesContainer"></div>
+    <form id="addSiteForm">
+      <label for="site_name">Site Name</label><br>
+      <input type="text" id="site_name" name="site_name"><br>
+      <label for="dev_domain">Dev Domain</label><br>
+      <input type="text" id="dev_domain" name="dev_domain"><br>
+      <label for="live_domain">Live Domain</label><br>
+      <input type="text"  id="live_domain" name="live_domain"><br>
+      <button class="submit" type="submit">Add</button>
+    </form>
+  </body>
+  <script src="options.js"></script>
+</html>
